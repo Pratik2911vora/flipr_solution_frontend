@@ -1,0 +1,76 @@
+body {
+  align-content: center;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Heading in the navbar */
+nav h1 {
+  margin: 0;
+}
+
+/* Category box styles */
+.category-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.category-box h2 {
+  color: #007bff;
+}
+
+/* Winners list styles */
+.list-group-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.list-group-item strong {
+  color: #007bff;
+}
+
+.list-group-item p {
+  margin-bottom: 0;
+}
+
+.list-group-item li {
+  list-style: none;
+}
+
+.list-group-item li::before {
+  content: "-";
+  margin-right: 5px;
+  color: #333;
+}
+
+.list-group-item li:first-child::before {
+  content: "";
+}
+
+.list-group-item li a {
+  color: #6c757d;
+}
+
+.list-group-item li a:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
